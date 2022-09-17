@@ -1,2 +1,2 @@
 # Pugs-Frogs-IN-SPACE
-A Couch Co-op Game where you play as a Pug and a Frog Moving through Space
+A couch PVP game where you try and blast your opponent off the map
