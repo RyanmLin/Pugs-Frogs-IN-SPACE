@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/support/zd130524' branch; Version is '2020.3.36f1 (71f96b79b9f0) revision 7469419'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 16218 MB
+OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'en' Physical Memory: 16267 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,113 +11,181 @@ C:\Program Files\Unity\Hub\Editor\2020.3.36f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/arsht/OneDrive/Documents/GitHub/Pugs-Frogs-IN-SPACE/PAFIS
+C:/Users/gofki/OneDrive/Documents/GitHub/Pugs-Frogs-IN-SPACE/PAFIS
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63510
-Successfully changed project path to: C:/Users/arsht/OneDrive/Documents/GitHub/Pugs-Frogs-IN-SPACE/PAFIS
-C:/Users/arsht/OneDrive/Documents/GitHub/Pugs-Frogs-IN-SPACE/PAFIS
+57369
+Successfully changed project path to: C:/Users/gofki/OneDrive/Documents/GitHub/Pugs-Frogs-IN-SPACE/PAFIS
+C:/Users/gofki/OneDrive/Documents/GitHub/Pugs-Frogs-IN-SPACE/PAFIS
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 46.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 51.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.36f1 (71f96b79b9f0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.36f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/arsht/OneDrive/Documents/GitHub/Pugs-Frogs-IN-SPACE/PAFIS/Assets
+[Subsystems] Discovering subsystems at path C:/Users/gofki/OneDrive/Documents/GitHub/Pugs-Frogs-IN-SPACE/PAFIS/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
     Vendor:   
-    VRAM:     8109 MB
-    Driver:   27.20.100.9624
+    VRAM:     4021 MB
+    Driver:   27.21.14.6089
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.36f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.36f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.36f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.36f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001641 seconds.
+Registered in 0.002924 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 66.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 50.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.729 seconds
+- Completed reload, in  0.776 seconds
 Domain Reload Profiling:
-	ReloadAssembly (730ms)
-		BeginReloadAssembly (64ms)
+	ReloadAssembly (776ms)
+		BeginReloadAssembly (85ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (594ms)
-			LoadAssemblies (62ms)
+		EndReloadAssembly (599ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (156ms)
+			SetupTypeCache (172ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (228ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (185ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (67ms)
-				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (114ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				RefreshPlugins (50ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002520 seconds.
+Registered in 0.003744 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000002068FA53CE0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068B5986B0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA4E620 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BCCCD60 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206902823A0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA788F0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206902957B0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068F9AC220 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068F9AC220 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206902957B0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068C06DA00 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020690340E40 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA4E620 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206902957B0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206902F6430 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206902F6430 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BCF3F80 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206902F6430 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068F8A3020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068F77A820 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FE56020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068F69FFC0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA4E620 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068F77A820 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FE83C30 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068F9B3630 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BC4A010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068F69FFC0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA1F710 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FABA010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BD999A0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FE97E40 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA4E620 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA1F710 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 68.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 72.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.171 seconds
+- Completed reload, in  1.278 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1172ms)
-		BeginReloadAssembly (146ms)
+	ReloadAssembly (1279ms)
+		BeginReloadAssembly (171ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (968ms)
-			LoadAssemblies (100ms)
+		EndReloadAssembly (1036ms)
+			LoadAssemblies (113ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (318ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (380ms)
+			SetupTypeCache (326ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (412ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (68ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (216ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2205 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 97.1 MB.
-System memory in use after: 97.1 MB.
+System memory in use after: 97.0 MB.
 
 Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2636.
-Total: 4.680500 ms (FindLiveObjects: 0.172300 ms CreateObjectMapping: 0.082500 ms MarkObjects: 4.084700 ms  DeleteObjects: 0.339100 ms)
+Total: 3.712100 ms (FindLiveObjects: 0.302000 ms CreateObjectMapping: 0.167200 ms MarkObjects: 3.053700 ms  DeleteObjects: 0.188100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -126,171 +194,163 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.017464 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000600 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffae677c86e903bacef8065336249a81') in 0.011936 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.690026 seconds.
-  path: Assets/Audio
-  artifactKey: Guid(25d66f157dbc2ba428b7842e24c3f331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio using Guid(25d66f157dbc2ba428b7842e24c3f331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e6f762329266915bdba0338cbb5377') in 0.012964 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 62.707936 seconds.
-  path: Assets/Audio/PAFIS - Fight Music 1.wav
-  artifactKey: Guid(16044374e404c7042887d577e453a048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/PAFIS - Fight Music 1.wav using Guid(16044374e404c7042887d577e453a048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3234ea508a6b0e8d970d453c10312838') in 0.186422 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000595 seconds.
-  path: Assets/Audio/PAFIS Main Theme - First pass.wav
-  artifactKey: Guid(1072735d2940f47488f879115a3b15cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/PAFIS Main Theme - First pass.wav using Guid(1072735d2940f47488f879115a3b15cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbac0a55803191eb1a7cde3b670818cc') in 0.028786 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003800 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.343 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2344ms)
-		BeginReloadAssembly (187ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (77ms)
-		EndReloadAssembly (2080ms)
-			LoadAssemblies (132ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (672ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (100ms)
-			SetupLoadedEditorAssemblies (867ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (176ms)
-				ProcessInitializeOnLoadAttributes (596ms)
-				ProcessInitializeOnLoadMethodAttributes (68ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2200 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.1 MB.
-System memory in use after: 100.1 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2648.
-Total: 5.837100 ms (FindLiveObjects: 0.292500 ms CreateObjectMapping: 0.117000 ms MarkObjects: 5.153400 ms  DeleteObjects: 0.270800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 778.108955 seconds.
-  path: Assets/Scenes/New Scene.unity
-  artifactKey: Guid(76d7daa346079ed4f9ffa0481aff8cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/New Scene.unity using Guid(76d7daa346079ed4f9ffa0481aff8cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a350d2b5dbcd541a63b762c09b443e91') in 0.012568 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 32.271481 seconds.
-  path: Assets/Scenes/Fight Arena.unity
-  artifactKey: Guid(76d7daa346079ed4f9ffa0481aff8cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fight Arena.unity using Guid(76d7daa346079ed4f9ffa0481aff8cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f11af4dce5b86a1c29379c861b6f642') in 0.008286 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.422725 seconds.
-  path: Assets/Scenes/FightArena.unity
-  artifactKey: Guid(76d7daa346079ed4f9ffa0481aff8cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/FightArena.unity using Guid(76d7daa346079ed4f9ffa0481aff8cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c426358af3d9c890a60dab5716b00c') in 0.007815 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.653340 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda3f93c471afc066ac2eb42f04c7952') in 0.017808 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.628189 seconds.
   path: Assets/Scenes/MainMenu.unity
   artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ce5021a2849f33f0037bcdb79a8f17') in 0.007367 seconds 
+Start importing Assets/Scenes/MainMenu.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da702aae5aad33d96862e7de0c7ea53') in 0.010152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.540150 seconds.
+  path: Assets/Scenes/Opening Screen.unity
+  artifactKey: Guid(01b8d3402cc0f0443aa351f382633af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Opening Screen.unity using Guid(01b8d3402cc0f0443aa351f382633af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9508a49fcc263c3ba67ccd96471d5d7e') in 0.009869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.203800 seconds.
+  path: Assets/Art
+  artifactKey: Guid(f649678c0cccdba47a3c099429bc1179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art using Guid(f649678c0cccdba47a3c099429bc1179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2a5787310bcbff8f7d38ce27b4bc4a') in 0.009946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.745438 seconds.
+  path: Assets/Audio/PAFIS - Fight Music 1.wav
+  artifactKey: Guid(16044374e404c7042887d577e453a048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/PAFIS - Fight Music 1.wav using Guid(16044374e404c7042887d577e453a048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c679129dd7bb1d170b773e9dbab28fbe') in 1.369013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Audio/PAFIS Main Theme - First pass.wav
+  artifactKey: Guid(1072735d2940f47488f879115a3b15cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/PAFIS Main Theme - First pass.wav using Guid(1072735d2940f47488f879115a3b15cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9bd9a7b52e28409a0e0fdcd050b65ef') in 0.019349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.361002 seconds.
+  path: Assets/Art/TempOpeningScene
+  artifactKey: Guid(29280056af0d8e54da06d02ba9d9cf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/TempOpeningScene using Guid(29280056af0d8e54da06d02ba9d9cf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad28c4a86cf530be944e3dd80e4337c0') in 0.012502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 391.998338 seconds.
+  path: Assets/Art/TempOpeningScene.png
+  artifactKey: Guid(783cd631d205b734aba296b9a60df4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/TempOpeningScene.png using Guid(783cd631d205b734aba296b9a60df4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e255fe55d3295028cc46ef7511d686') in 0.441499 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004834 seconds.
+Registered in 0.003493 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000002068FBB6020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206944D7B60 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206910CA010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206948FCAD0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA43010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BD76020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020693FF6BB0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BD92010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA43010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA43010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020693CD8FE0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020693575030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020693C09E50 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020690F86590 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BD92010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068F9AC220 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206917DE430 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BD92010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FB62020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068F77A820 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020690338230 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206900D6020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020693C09E50 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BD92010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FBDAC30 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068C00B010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA30630 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020692E5B420 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA43010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020694907480 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BD99400 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069163C620 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068B957A40 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA43010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.360 seconds
+- Completed reload, in  1.169 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1360ms)
-		BeginReloadAssembly (196ms)
+	ReloadAssembly (1170ms)
+		BeginReloadAssembly (159ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (66ms)
-		EndReloadAssembly (1049ms)
-			LoadAssemblies (187ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (939ms)
+			LoadAssemblies (120ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (388ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (343ms)
+			SetupTypeCache (349ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (334ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (239ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (225ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2200 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 100.1 MB.
 System memory in use after: 100.1 MB.
 
 Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2651.
-Total: 2.800800 ms (FindLiveObjects: 0.126500 ms CreateObjectMapping: 0.045000 ms MarkObjects: 2.487100 ms  DeleteObjects: 0.140800 ms)
+Total: 3.212500 ms (FindLiveObjects: 0.187800 ms CreateObjectMapping: 0.118200 ms MarkObjects: 2.718900 ms  DeleteObjects: 0.186700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -299,55 +359,122 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003504 seconds.
+Registered in 0.004163 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0000020690A57870 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206944D5CE0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068B7DA020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B76367A0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206948FB060 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069319D040 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206908D6010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BCF6980 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020690A7C480 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206948FB060 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020693E0A030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069036A030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068C236A50 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020690F86590 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020694168020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020694168020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206917DE430 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020694168020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206932C4010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020694168020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020690278040 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206900D6020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068C236A50 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069163C620 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020690278040 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068C00B010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FABA010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206942DC6F0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA43010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000204BEBBE2A0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BD99400 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069163C620 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068B7DA020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206948FB060 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.101 seconds
+- Completed reload, in  1.191 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1101ms)
-		BeginReloadAssembly (180ms)
+	ReloadAssembly (1191ms)
+		BeginReloadAssembly (150ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (60ms)
-		EndReloadAssembly (871ms)
-			LoadAssemblies (127ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (976ms)
+			LoadAssemblies (125ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (312ms)
+			SetupTypeCache (378ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (322ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (336ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (210ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2200 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.2 MB.
+System memory in use before: 100.1 MB.
 System memory in use after: 100.1 MB.
 
 Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2654.
-Total: 3.763200 ms (FindLiveObjects: 0.221000 ms CreateObjectMapping: 0.099200 ms MarkObjects: 3.246700 ms  DeleteObjects: 0.194600 ms)
+Total: 4.481300 ms (FindLiveObjects: 0.198600 ms CreateObjectMapping: 0.122000 ms MarkObjects: 4.003800 ms  DeleteObjects: 0.155500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -356,67 +483,512 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003810 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000206934E7040 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000204BEF014C0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068B7DA020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206947132C0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206948FB060 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068F7BD010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206948518B0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BD92010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069350BC50 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206948FB060 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020690A57870 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020693575030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068B7DA020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206948518B0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BD92010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B750A060 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206936CC420 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BD92010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020692FB7050 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020692E2C030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020690F63420 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206900D6020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068B7DA020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020692E2C030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020690F63420 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068C00B010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BB22680 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206942DC6F0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA43010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000204BEBBE2A0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BD99400 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BD92010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068B7DA020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206948FB060 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.163 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1163ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (952ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (328ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (334ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (229ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2201 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.2 MB.
+System memory in use after: 100.1 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2658.
+Total: 5.955700 ms (FindLiveObjects: 0.362900 ms CreateObjectMapping: 0.195800 ms MarkObjects: 5.160700 ms  DeleteObjects: 0.234700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.511829 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000020690A57870 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206944D5CE0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068B7DA020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206946A7220 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FF66040 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068F7BD010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068F536F40 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206932FDD10 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206948FB060 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FF66040 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA50A30 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020693E0A030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206932E8B60 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA1B030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206932FDD10 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B7843020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206933FA450 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206932FDD10 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206942DC6F0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069406A010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068F999010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206900D6020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206932E8B60 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069406A010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068F999010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BC4AD30 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206933FA450 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069330CA70 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206948FB060 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020692E36030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FB3BEF0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BD92010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206932E8B60 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FF66040 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.120 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1121ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (929ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (323ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (340ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (236ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2201 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.2 MB.
+System memory in use after: 100.2 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2661.
+Total: 3.327000 ms (FindLiveObjects: 0.190600 ms CreateObjectMapping: 0.090200 ms MarkObjects: 2.884500 ms  DeleteObjects: 0.160800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 104.542794 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d787f74feaccead15ace639f534ece') in 0.008116 seconds 
+  Time since last request: 1560.381815 seconds.
+  path: Assets/Scenes/Opening Screen.unity
+  artifactKey: Guid(01b8d3402cc0f0443aa351f382633af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Opening Screen.unity using Guid(01b8d3402cc0f0443aa351f382633af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ebd54f3ba9b9328d9dcaf0d970a084') in 0.007179 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.016530 seconds.
-  path: Assets/Scenes/FightArena.unity
-  artifactKey: Guid(76d7daa346079ed4f9ffa0481aff8cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/FightArena.unity using Guid(76d7daa346079ed4f9ffa0481aff8cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27bc8db8e45e37d45b627895049bbb3b') in 0.003708 seconds 
+  Time since last request: 53.897868 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(402d217d719b9a74a9cfc6b46ddd3c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(402d217d719b9a74a9cfc6b46ddd3c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed991d43a9f2e0a0ef4599b2a053fca') in 0.009311 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002594 seconds.
+Registered in 0.004574 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0000020690A57870 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206944D9610 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068B7DA020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B75CC8B0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068F8D7030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020693C00020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206930A7010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BD92010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206948FB060 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068F8D7030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206932C3F50 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020693575030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA75640 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206930A7010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BD92010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020693728E90 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B78B0630 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BD92010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020692DFC010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020693950530 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206903E2030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206900D6020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FBA0030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020693950530 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206903E2030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BC4AD30 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B78B0630 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B7853040 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206948FB060 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020690E60440 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BC26430 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BD92010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA75640 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068F8D7030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.182 seconds
+- Completed reload, in  1.135 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1182ms)
-		BeginReloadAssembly (146ms)
+	ReloadAssembly (1135ms)
+		BeginReloadAssembly (120ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (969ms)
-			LoadAssemblies (147ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (948ms)
+			LoadAssemblies (108ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (321ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (325ms)
+			SetupTypeCache (322ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (365ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (249ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2201 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.2 MB.
+System memory in use after: 100.2 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2664.
+Total: 3.174400 ms (FindLiveObjects: 0.186400 ms CreateObjectMapping: 0.096500 ms MarkObjects: 2.726700 ms  DeleteObjects: 0.164000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 89.821941 seconds.
+  path: Assets/Scenes/FightArena.unity
+  artifactKey: Guid(76d7daa346079ed4f9ffa0481aff8cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FightArena.unity using Guid(76d7daa346079ed4f9ffa0481aff8cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929370a82769abcb92cb3cd01f608826') in 0.014735 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.249624 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000020690A57870 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206944D9610 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068B7DA020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069372C320 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020693E3E030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068F8D7030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069332CAB0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BD92010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B78A5020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020693E3E030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206932C3F50 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B7A59050 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020694904E90 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069332CAB0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BD92010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206930AF020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BB1F080 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BD92010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020693737030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068F7BD010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020690278040 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206900D6020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FBA0030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068F7BD010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020692CEE020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069431A020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020693D18250 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020693615020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020693D09010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068C00DA10 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BC26070 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BD92010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA75640 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020693E3E030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.217 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5217ms)
+		BeginReloadAssembly (1924ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (3151ms)
+			LoadAssemblies (3023ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (321ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1382ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (238ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (1287ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2200 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2201 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 100.2 MB.
-System memory in use after: 100.1 MB.
+System memory in use after: 100.2 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2657.
-Total: 3.247900 ms (FindLiveObjects: 0.149000 ms CreateObjectMapping: 0.051100 ms MarkObjects: 2.861700 ms  DeleteObjects: 0.184400 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2667.
+Total: 3.325200 ms (FindLiveObjects: 0.197800 ms CreateObjectMapping: 0.092000 ms MarkObjects: 2.857500 ms  DeleteObjects: 0.177000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -425,19 +997,799 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 64.647471 seconds.
-  path: Assets/Scenes/FightArena.unity
-  artifactKey: Guid(76d7daa346079ed4f9ffa0481aff8cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/FightArena.unity using Guid(76d7daa346079ed4f9ffa0481aff8cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526431b06c2e89221c65928de4c271c9') in 0.006364 seconds 
+  Time since last request: 102.433931 seconds.
+  path: Assets/Art/FightArenaBackground.png
+  artifactKey: Guid(82c6eeddf232ee842a7e19dba0411b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/FightArenaBackground.png using Guid(82c6eeddf232ee842a7e19dba0411b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0d39517395aec06451e52a9a43ed7f') in 0.301349 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003574 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000020694535110 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000204BEF03340 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068B7DA020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B78A9ED0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BFD9FE0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206949072B0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020693647030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA2A420 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206917D4020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BFD9FE0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BFB0010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B7A59050 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BEFF6F0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B7FBD010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA2A420 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206941E6030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BCF3F80 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA2A420 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206942DC050 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FD72160 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020690278040 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206900D6020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FBA0030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069334CAD0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020694099CD0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206903FA050 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B767C8C0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B72E9CE0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069392D040 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000204BEBBE2A0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BC26250 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA2A420 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068C0631F0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BFD9FE0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.177 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1177ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (976ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (340ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (353ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2201 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.2 MB.
+System memory in use after: 100.2 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2672.
+Total: 4.469500 ms (FindLiveObjects: 0.166900 ms CreateObjectMapping: 0.090200 ms MarkObjects: 4.064000 ms  DeleteObjects: 0.147000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003736 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000020692FA7040 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000204BEF014C0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068B7DA020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B78A77A0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BFD9FE0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206949072B0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020693647030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA2A420 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206917D4020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BFD9FE0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BFB0010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B7A59050 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA75640 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B7FBD010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA2A420 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206941E6030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BCF3F80 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA2A420 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206942DC050 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FD72160 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020690278040 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206900D6020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FBA0030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069334CAD0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020690CC80C0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206903FA050 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B767C8C0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B72E9CE0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069392D040 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000204BEBBE2A0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BC26610 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA2A420 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA75640 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BFD9FE0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.202 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1202ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (993ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (332ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (373ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (252ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2201 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.2 MB.
+System memory in use after: 100.2 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2675.
+Total: 3.740400 ms (FindLiveObjects: 0.183600 ms CreateObjectMapping: 0.201700 ms MarkObjects: 3.158600 ms  DeleteObjects: 0.195400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004527 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000206945D1090 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000204BEF014C0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068B7DA020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B78A9ED0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069156D070 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206949072B0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020693647030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA23040 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206917D4020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069156D070 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BFB0010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B7A59050 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA75640 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B7FBD010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA23040 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206941E6030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B76DFCE0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA23040 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206942DC050 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FD72160 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020690278040 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206900D6020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FBA0030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069334CAD0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020694099CD0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020693559010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020692D05230 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B72E9CE0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069392D040 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069134D040 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BD99400 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA23040 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA75640 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069156D070 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.665 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1666ms)
+		BeginReloadAssembly (286ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (80ms)
+		EndReloadAssembly (1303ms)
+			LoadAssemblies (409ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (347ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (314ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2201 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.2 MB.
+System memory in use after: 100.2 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2678.
+Total: 3.558200 ms (FindLiveObjects: 0.184600 ms CreateObjectMapping: 0.081900 ms MarkObjects: 3.108900 ms  DeleteObjects: 0.181900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.286225 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cecd85c622f31e6cd068bc0d124cded2') in 0.006817 seconds 
+  Time since last request: 206.713984 seconds.
+  path: Assets/Art/FrogPlayer.png
+  artifactKey: Guid(ecdad9dcfc6d78249a42faf8983c520c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/FrogPlayer.png using Guid(ecdad9dcfc6d78249a42faf8983c520c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a08a61fbddcc3c7086657e3640d66c9') in 0.078854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.439901 seconds.
+  path: Assets/Art/FrogPlayer.png
+  artifactKey: Guid(ecdad9dcfc6d78249a42faf8983c520c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/FrogPlayer.png using Guid(ecdad9dcfc6d78249a42faf8983c520c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214cc34d9229d6152f995e71f03b5fd9') in 0.014340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.418035 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95df672b4aaba54310d34c83eef51bb8') in 0.013998 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003844 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000206945D1090 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000204BEBAE9A0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068B7DA020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B78AABE0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BFD9FE0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206948FB060 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020693647030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069110E010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BD1A010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BFD9FE0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BFB0010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206938C1040 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020692FD9480 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA1B030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069110E010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B75CA130 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B75A5680 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069110E010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B75320B0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FD72160 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020690278040 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206900D6020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020692FD9480 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069334CAD0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020692CEE020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206903FA050 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206941ED710 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FC5E020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BD1A010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000204BEBBE2A0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BC26D90 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BD92010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA75640 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BFD9FE0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.235 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1235ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1014ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (334ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (412ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (301ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2201 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.3 MB.
+System memory in use after: 100.2 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2684.
+Total: 3.497000 ms (FindLiveObjects: 0.241700 ms CreateObjectMapping: 0.121300 ms MarkObjects: 2.967000 ms  DeleteObjects: 0.166000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 479.094545 seconds.
+  path: Assets/Art/FightArenaBackground.png
+  artifactKey: Guid(82c6eeddf232ee842a7e19dba0411b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/FightArenaBackground.png using Guid(82c6eeddf232ee842a7e19dba0411b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7945ca40a09c9b2a269f03becaf612') in 0.138308 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003760 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000206945D1090 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000204BEBB0FC0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068B7DA020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B78A9ED0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020690F86590 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206949072B0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068C09F030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069110E010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B800D010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020690F86590 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BFB0010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B7A59050 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068B7DA020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA1B030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069110E010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020693F86040 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020690A142C0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069110E010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020692DFC010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FD72160 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020690278040 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206900D6020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068B7DA020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069334CAD0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020692CEE020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BC4AD30 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020690C22050 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206935F3030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020693C00020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000204BEBBE2A0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BC26430 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BD92010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068B7DA020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020694557020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.274 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1274ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1037ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (342ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (393ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (237ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2201 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.3 MB.
+System memory in use after: 100.2 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2688.
+Total: 3.272000 ms (FindLiveObjects: 0.210500 ms CreateObjectMapping: 0.097800 ms MarkObjects: 2.791000 ms  DeleteObjects: 0.171500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003845 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000206945D1090 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000204BEBAF8E0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068B7DA020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B78AABE0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020690F86590 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206948FB060 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FC90030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069110E010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020693C00020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020690F86590 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BFB0010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206938C1040 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068B7DA020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FA1B030 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069110E010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020693F86040 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069319FCD0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069110E010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020692DFC010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069334CAD0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020690278040 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206900D6020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068B7DA020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002069334CAD0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020690278040 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BC4AD30 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068FB40E80 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206900D6020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020693C00020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020690CDF2D0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068BC269D0 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020692D00010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002068B7DA020 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206B7967010 doesn't match image C:\Users\gofki\OneDrive\Documents\GitHub\Pugs-Frogs-IN-SPACE\PAFIS\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.112 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1112ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (916ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (306ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (337ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (233ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2201 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.3 MB.
+System memory in use after: 100.2 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2691.
+Total: 3.565000 ms (FindLiveObjects: 0.171600 ms CreateObjectMapping: 0.090300 ms MarkObjects: 3.086700 ms  DeleteObjects: 0.215300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 262.609335 seconds.
+  path: Assets/Art/OpeningScene.png
+  artifactKey: Guid(4ff1a09df9aacb8458197c5cb1ad5080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OpeningScene.png using Guid(4ff1a09df9aacb8458197c5cb1ad5080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854837cf03f80a4cf781c5b97b6862fb') in 0.208906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.255723 seconds.
+  path: Assets/Scenes/Opening Screen.unity
+  artifactKey: Guid(01b8d3402cc0f0443aa351f382633af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Opening Screen.unity using Guid(01b8d3402cc0f0443aa351f382633af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3821647f28be28041b2f073a78fd0e3f') in 0.003716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.289146 seconds.
+  path: Assets/Art/OpeningScene.png
+  artifactKey: Guid(4ff1a09df9aacb8458197c5cb1ad5080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OpeningScene.png using Guid(4ff1a09df9aacb8458197c5cb1ad5080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c8b8d6d33c7686a151f8b0d7798a151') in 0.027672 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
