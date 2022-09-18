@@ -42,9 +42,9 @@ public class FrogPlayerMovement : MonoBehaviour
     {
         if (col.gameObject.tag == playerScript.explosionTag)
         {
+            Debug.Log("ouch");
             // Take Damage
             playerScript.TakeHit(playerScript.damage);
-            Debug.Log(playerScript.knoknockOutPercent);
 
             // Apply knockback force
             KnockBack(col.transform.position);

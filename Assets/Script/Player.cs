@@ -30,8 +30,7 @@ public class Player : MonoBehaviour
 
 	// Update is called once per frame
 	void Update()
-	{
-		TakeHit(1);
+	{ 
 		if (Input.GetMouseButton(0))
 		{
 			Shoot(bullet);
