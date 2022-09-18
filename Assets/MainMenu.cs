@@ -9,7 +9,7 @@ public class MainMenu : MonoBehaviour
     public string gameScene;
     public string settingsScene;
 
-    private float delayDuration = 1.5f;
+    private float delayDuration = 0.5f;
     // Start is called before the first frame update
     void Start()
     {
