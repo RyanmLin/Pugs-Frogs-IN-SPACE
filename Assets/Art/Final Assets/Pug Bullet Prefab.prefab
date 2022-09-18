@@ -14676,6 +14676,7 @@ GameObject:
   - component: {fileID: 1481398023}
   - component: {fileID: 1481398022}
   - component: {fileID: 1481398024}
+  - component: {fileID: 4372915585103383935}
   m_Layer: 6
   m_Name: Pug Bullet Prefab
   m_TagString: Bullet
@@ -14758,4 +14759,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
-  duration: 150
+  duration: 700
+  circleCol: {fileID: 4372915585103383935}
+--- !u!58 &4372915585103383935
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8578144661212523514}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.1

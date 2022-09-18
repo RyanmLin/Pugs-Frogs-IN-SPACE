@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
 
 	//Shooting related
 	[SerializeField] public Bullet bullet;
+
 	//fire rate
 	[SerializeField] public float msBetweenShots = 250;
 	// the speed at which the bullet will leave the gun
@@ -19,6 +20,7 @@ public class Player : MonoBehaviour
 	float nextShotTime;
 
 	public string explosionTag;
+	public string collectibleTag;
 	public float damage;
 	public float knockbackForce;
 
@@ -36,8 +38,7 @@ public class Player : MonoBehaviour
 
 	// Update is called once per frame
 	void Update()
-	{
-		TakeHit(1);
+	{ 
 		if (Input.GetMouseButton(0))
 		{
 			Shoot(bullet);

@@ -9,8 +9,12 @@ TagManager:
   - PugPlayer
   - TEST
   - Bullet
-  - Tilemap
-  - gameMaster
+  - Frog_Fire
+  - Frog_Ice
+  - Frog_Laser
+  - Pug_Fire
+  - Pug_Ice
+  - Pug_Laser
   layers:
   - Default
   - TransparentFX
