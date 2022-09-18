@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Settings.unity
     guid: e82767935cbf7f5449a71408e3ea23a3
+  - enabled: 1
+    path: Assets/Scenes/FrogVictory.unity
+    guid: af75a01dfda49884981101f9e30a597c
+  - enabled: 1
+    path: Assets/Scenes/PugVictory.unity
+    guid: 4676f6656887e4d4ea7df9cf8a978e89
   m_configObjects: {}
