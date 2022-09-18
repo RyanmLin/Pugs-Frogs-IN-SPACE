@@ -396,3 +396,4 @@ Received Import Request.
   path: Assets/Art/SPACE.png
   artifactKey: Guid(edc2c0a5be560b34290557680eb8c6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Art/SPACE.png using Guid(edc2c0a5be560b34290557680eb8c6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b79a17d982fb30cee774fa74394bb1a') in 0.028023 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
