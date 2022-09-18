@@ -8,7 +8,7 @@ public class Bullet : MonoBehaviour
 
     Animator animator;
     [SerializeField] public float speed;
-    float duration = 70;
+    public float duration = 70;
     float exlopsionDelay = 2;
 
 
@@ -38,23 +38,22 @@ public class Bullet : MonoBehaviour
      
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
   
         if (collision.gameObject.tag == "Bullet")
         {
             animator.SetBool("Exploding", true);
-            StartCoroutine(explosionDelayer(collision));
+            StartCoroutine(explosionDelayer());
                 
         }
     }
 
 
 
-   IEnumerator explosionDelayer(Collision2D collision)
+   IEnumerator explosionDelayer()
     {
         yield return new WaitForSeconds(0.6f);
-        GameObject.Destroy(collision.gameObject);
         GameObject.Destroy(gameObject);
     }
 
