@@ -6,7 +6,9 @@ public class PugPlayerMovement : MonoBehaviour
 {
     public Rigidbody2D rb;
     public float thrust;
-
+    public AudioSource source;
+    public AudioClip clip;
+    
     [SerializeField] private Player playerScript;
     // Start is called before the first frame update
     void Start()
@@ -33,11 +35,12 @@ public class PugPlayerMovement : MonoBehaviour
         {
             rb.AddForce(-transform.right * thrust);
         }
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.RightShift))
         {
-
+            source.PlayOneShot(clip);
         }
     }
+    
     private void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.tag == playerScript.explosionTag)
