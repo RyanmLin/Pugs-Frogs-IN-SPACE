@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
-  duration: 70
+  duration: 700
   circleCol: {fileID: 0}
 --- !u!1 &4187149295991113742
 GameObject:
