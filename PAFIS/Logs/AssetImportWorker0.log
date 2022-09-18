@@ -1230,3 +1230,166 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 271.992573 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92fef8e758a39263d3c65062297520eb') in 0.022182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.182043 seconds.
+  path: Assets/Art/Final Assets/Frog Bullet Prefab.prefab
+  artifactKey: Guid(840ce0c9b4cb70e4e916326a064df18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Final Assets/Frog Bullet Prefab.prefab using Guid(840ce0c9b4cb70e4e916326a064df18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a25ea06cba658d5ce2f8de2a0fdc19d') in 0.057397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.203238 seconds.
+  path: Assets/Art/Final Assets/Pug Bullet Prefab.prefab
+  artifactKey: Guid(416bde1fa0bdf5f44912f768cc652cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Final Assets/Pug Bullet Prefab.prefab using Guid(416bde1fa0bdf5f44912f768cc652cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4933d3c07550f2fda2c1f6561c7b653') in 0.018850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 156.049304 seconds.
+  path: Assets/Art/Materials/Ice Cubes.mat
+  artifactKey: Guid(f90eabe386a302d4eaac881737665b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Ice Cubes.mat using Guid(f90eabe386a302d4eaac881737665b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2be737eba0a9a380c8f4bce46a09fc7') in 0.032912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Art/Materials/Snowflakes.mat
+  artifactKey: Guid(85b92fc86d9d0644e901a477673aa18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Snowflakes.mat using Guid(85b92fc86d9d0644e901a477673aa18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3791227c42e33f33248a5dfc9e6817') in 0.017140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Art/Materials/Snowflake.png
+  artifactKey: Guid(51f0fbd0d68d8db4db5e2941dfb843d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Snowflake.png using Guid(51f0fbd0d68d8db4db5e2941dfb843d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4231225dff19dc8cfebbe8a5471495c') in 0.035856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.592367 seconds.
+  path: Assets/Art/Menu Assets/Exit.png
+  artifactKey: Guid(e22096f676a15654795e72684f7888bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Menu Assets/Exit.png using Guid(e22096f676a15654795e72684f7888bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8285c3f2734a10cad4f3902997e411') in 0.037699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Art/Menu Assets/Settings.png
+  artifactKey: Guid(1486b1f0d1039424fb5a96bb145ccdfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Menu Assets/Settings.png using Guid(1486b1f0d1039424fb5a96bb145ccdfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f3c5ff70a6ac2a3992f6365a323fa4') in 0.022801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Art/Menu Assets/Pug_Power_Up.png
+  artifactKey: Guid(50a209fdc1605a44189b4c38f51e7f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Menu Assets/Pug_Power_Up.png using Guid(50a209fdc1605a44189b4c38f51e7f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06739fb36468d41a2a702defd0f3deca') in 0.022531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Art/Menu Assets/Start1.png
+  artifactKey: Guid(b146b77cc4e27ff4c8e74116fb0172d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Menu Assets/Start1.png using Guid(b146b77cc4e27ff4c8e74116fb0172d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18361384441c2179b64dc2585356c19a') in 0.020642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.890507 seconds.
+  path: Assets/Art/Fire Extinguisher.png
+  artifactKey: Guid(9843043ec6d6a6c4b9647e25da86a7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Fire Extinguisher.png using Guid(9843043ec6d6a6c4b9647e25da86a7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e14a15a21c06314f5cea09f665465a') in 0.017268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.001353 seconds.
+  path: Assets/Art/Frog Bullet.png
+  artifactKey: Guid(c73f66528636dfb4a9432d869d37971f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Frog Bullet.png using Guid(c73f66528636dfb4a9432d869d37971f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b96c48113c2454e858fb242bf10aec') in 0.013339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.732130 seconds.
+  path: Assets/Art/Frog_Collectible_Ice.png
+  artifactKey: Guid(325aab62ff5fb0046add54a1c7e57347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Frog_Collectible_Ice.png using Guid(325aab62ff5fb0046add54a1c7e57347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845dcdca5c37aa5c824f958b2f886da9') in 0.014815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.656104 seconds.
+  path: Assets/Art/Frogs_Collectible (1).png
+  artifactKey: Guid(8ed208c2d333e1645ba33f99c551d9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Frogs_Collectible (1).png using Guid(8ed208c2d333e1645ba33f99c551d9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7641a50f7fdd5aa641ae937235273b') in 0.016015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Art/Green Lightsaber.png
+  artifactKey: Guid(3cdef6c18dc34d94b8009bad9da37a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Green Lightsaber.png using Guid(3cdef6c18dc34d94b8009bad9da37a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8a4023d697d3587e92530aa33529b5') in 0.018084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Art/Ice Cube.png
+  artifactKey: Guid(bf13a7d126dcf5341955ea74b8a89730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Ice Cube.png using Guid(bf13a7d126dcf5341955ea74b8a89730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963d8f1f634985f2f2065955ab15490e') in 0.013064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Art/Pug_Collectible.png
+  artifactKey: Guid(4fbc90cd6bbb78c44b3b19db97e66d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pug_Collectible.png using Guid(4fbc90cd6bbb78c44b3b19db97e66d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd102e4b9215e589b74d82e9ad534c277') in 0.013207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Art/MainMenu.png
+  artifactKey: Guid(3c79123ec315d0f4eb836a45b609da6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MainMenu.png using Guid(3c79123ec315d0f4eb836a45b609da6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38978fb7ddfb74ee399ee62dd10c880') in 0.017833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Art/Pugs_Collectible (1).png
+  artifactKey: Guid(10db7d76d8bbfeb409b580c8f0808aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pugs_Collectible (1).png using Guid(10db7d76d8bbfeb409b580c8f0808aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c9e5438679862c57545e714b824acf') in 0.016922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Art/Pivoted Red lightsaber.png
+  artifactKey: Guid(60f3cb951e22178438a91ff1c44cb61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pivoted Red lightsaber.png using Guid(60f3cb951e22178438a91ff1c44cb61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31079fa8679e4f65edc18994f539ca10') in 0.016384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Art/Pugs_Collectible.png
+  artifactKey: Guid(92bf3bbb0560dc64b8f49b530c9fd393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pugs_Collectible.png using Guid(92bf3bbb0560dc64b8f49b530c9fd393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b5cb4dca3cbd2adf108c8909a79642') in 0.017161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Art/Pug Bullet.png
+  artifactKey: Guid(104e996d5bc4eb84f9a49c185c08bd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pug Bullet.png using Guid(104e996d5bc4eb84f9a49c185c08bd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a957fe5fd35fc44fe34cc476f6987389') in 0.017038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Art/OpeningScene.png
+  artifactKey: Guid(76eb774c8e90cb7458e7d346b21deee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OpeningScene.png using Guid(76eb774c8e90cb7458e7d346b21deee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f688ff3fc15a0e0884e984bbcfc07d') in 0.019814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Art/Frogs_Collectible.png
+  artifactKey: Guid(d2831235bdc64e94fb9a278fce821820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Frogs_Collectible.png using Guid(d2831235bdc64e94fb9a278fce821820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105298e1b3976c49a52982922d373ea2') in 0.014375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Art/Mini Fridge.png
+  artifactKey: Guid(6033be170c8489543aad895a930cbe44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Mini Fridge.png using Guid(6033be170c8489543aad895a930cbe44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64a148acd76f4359756678fef893646') in 0.021007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Art/Frogs_Collectible_1.png
+  artifactKey: Guid(03c67d685cee61d4388fd26f22041bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Frogs_Collectible_1.png using Guid(03c67d685cee61d4388fd26f22041bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe9106dff24561fa0f3278b099fc0a8') in 0.016270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Art/Red lightsaber.png
+  artifactKey: Guid(ea1b729314d461545ba2ce51f99b5f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Red lightsaber.png using Guid(ea1b729314d461545ba2ce51f99b5f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da08d90d534cfa9e2afcfd918b7e0d0') in 0.015056 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

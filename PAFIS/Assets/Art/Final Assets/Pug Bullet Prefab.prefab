@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8175196323153451020}
   - component: {fileID: 1774128851128040635}
   - component: {fileID: 914780773399175999}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Pug Bullet Trail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4815,7 +4815,7 @@ GameObject:
   - component: {fileID: 6791656698742244773}
   - component: {fileID: 6791656698742244775}
   - component: {fileID: 6791656698742244774}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Frog Bullet Explosion Fruit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9677,7 +9677,7 @@ GameObject:
   - component: {fileID: 6791656699706267473}
   - component: {fileID: 6791656699706267475}
   - component: {fileID: 6791656699706267474}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Frog Bullet Explosion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14538,7 +14538,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6791656700264201853}
   - component: {fileID: 6791656700264201854}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Pug Bullet Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14592,7 +14592,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6677831559659326765}
   - component: {fileID: 4626000340139154044}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Pug Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14676,7 +14676,7 @@ GameObject:
   - component: {fileID: 1481398023}
   - component: {fileID: 1481398022}
   - component: {fileID: 1481398024}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Pug Bullet Prefab
   m_TagString: Bullet
   m_Icon: {fileID: 0}
