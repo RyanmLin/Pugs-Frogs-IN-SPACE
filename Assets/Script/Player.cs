@@ -12,6 +12,9 @@ public class Player : MonoBehaviour
 
 	//Shooting related
 	[SerializeField] public Bullet bullet;
+	[SerializeField] public IceBullet ice;
+	[SerializeField] public FireBullet fire;
+	[SerializeField] public LaserSword laser;
 
 	//fire rate
 	[SerializeField] public float msBetweenShots = 250;
