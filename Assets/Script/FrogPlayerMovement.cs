@@ -44,12 +44,31 @@ public class FrogPlayerMovement : MonoBehaviour
     {
         if (col.gameObject.tag == playerScript.explosionTag)
         {
+            Debug.Log("ouch");
             // Take Damage
             playerScript.TakeHit(playerScript.damage);
-            Debug.Log(playerScript.knoknockOutPercent);
 
             // Apply knockback force
             KnockBack(col.transform.position);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.tag == "Frog_Fire")
+        {
+            Destroy(col.gameObject);
+            // Change Next Bullet to Fire Extinguisher
+        }
+        if (col.gameObject.tag == "Frog_Ice")
+        {
+            Destroy(col.gameObject);
+            // Change Next Bullet to Ice Cube
+        }
+        if (col.gameObject.tag == "Frog_Laser")
+        {
+            Destroy(col.gameObject);
+            // Instantiate Laser Sword
         }
     }
 

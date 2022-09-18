@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
 
 	//Shooting related
 	[SerializeField] public Bullet bullet;
+
 	//fire rate
 	[SerializeField] public float msBetweenShots = 250;
 	// the speed at which the bullet will leave the gun
@@ -19,19 +20,25 @@ public class Player : MonoBehaviour
 	float nextShotTime;
 
 	public string explosionTag;
+	public string collectibleTag;
 	public float damage;
 	public float knockbackForce;
 
+	public GameMaster gameMaster;
+
 	void Start()
 	{
+		if (gameMaster == null)
+        {
+			gameMaster = GameObject.FindGameObjectWithTag("gameMaster").GetComponent<GameMaster>();
+        }
 		knoknockOutPercent = 0;
 	}
 
 
 	// Update is called once per frame
 	void Update()
-	{
-		TakeHit(1);
+	{ 
 		if (Input.GetMouseButton(0))
 		{
 			Shoot(bullet);
@@ -56,6 +63,15 @@ public class Player : MonoBehaviour
 	{
 		knoknockOutPercent += damage;
 	}
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Tilemap")
+        {
+			Debug.Log("wooop");
+			gameMaster.EndGame();
+        }
+    }
 }
 
 
