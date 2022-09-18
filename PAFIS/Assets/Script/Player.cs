@@ -9,6 +9,10 @@ public class Player : MonoBehaviour
 
 
 	[SerializeField] public float knoknockOutPercent;
+	public string explosionTag;
+	public float damage;
+	public float knockbackForce;
+
 	void Start()
 	{
 		knoknockOutPercent = 0;
@@ -18,11 +22,8 @@ public class Player : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		TakeHit(1);
+
 	}
-
-
-
 
 	public void TakeHit(float damage)
 	{
