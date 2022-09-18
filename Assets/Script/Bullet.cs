@@ -8,6 +8,7 @@ public class Bullet : MonoBehaviour
     [SerializeField] public float speed;
     public float duration = 70;
     float exlopsionDelay = 2;
+    public float circleRadius;
 
     public CircleCollider2D circleCol;
 
@@ -46,7 +47,7 @@ public class Bullet : MonoBehaviour
             animator.SetBool("Exploding", true);
             StartCoroutine(explosionDelayer());
             circleCol.isTrigger = false;
-            circleCol.radius = 1f;
+            circleCol.radius = circleRadius;
         }
     }
 
