@@ -7,7 +7,7 @@ public class GameMaster : MonoBehaviour
 {
     bool pugWin = false;
     bool frogWin = false;
-    float delay = 3f;
+    float delay = 0.5f;
 
     public void EndGame(int layer)
     {
