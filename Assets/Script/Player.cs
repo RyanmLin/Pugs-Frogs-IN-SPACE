@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
 
 	//Shooting related
 	[SerializeField] public Bullet bullet;
+
 	//fire rate
 	[SerializeField] public float msBetweenShots = 250;
 	// the speed at which the bullet will leave the gun
