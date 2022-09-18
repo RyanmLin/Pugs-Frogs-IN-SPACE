@@ -9,6 +9,7 @@ TagManager:
   - PugPlayer
   - TEST
   - Bullet
+  - Tilemap
   layers:
   - Default
   - TransparentFX
