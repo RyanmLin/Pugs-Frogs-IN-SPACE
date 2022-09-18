@@ -6,21 +6,30 @@ public class Bullet : MonoBehaviour
 {
 
 
-
+    Animator animator;
     [SerializeField] public float speed;
-    float duration = 5;
+    float duration = 70;
+    float exlopsionDelay = 2;
 
 
     // Start is called before the first frame update
     void Start()
     {
-     
+        animator = GetComponentInChildren<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
         transform.Translate(Vector2.up * Time.deltaTime * speed);
+        if (duration < 0)
+        {
+            animator.SetBool("Idling", true);
+            speed = 0;
+            exlopsionDelay--;
+        }
+
+        duration--;
     }
 
     public void Setspeed(float newSpeed)
@@ -31,23 +40,23 @@ public class Bullet : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("enter");
+  
         if (collision.gameObject.tag == "Bullet")
         {
-            GameObject.Destroy(collision.gameObject);
-            GameObject.Destroy(gameObject);
+            animator.SetBool("Exploding", true);
+            StartCoroutine(explosionDelayer(collision));
+                
         }
     }
 
-    //private void OnTriggerEnter2D(Collider2D collision)
-    //{
-    //    Debug.Log("enter");
-    //    if (collision.tag == "Bullet")
-    //    {
-    //        GameObject.Destroy(collision);
-    //        GameObject.Destroy(gameObject);
-    //    }
-    //}
+
+
+   IEnumerator explosionDelayer(Collision2D collision)
+    {
+        yield return new WaitForSeconds(0.6f);
+        GameObject.Destroy(collision.gameObject);
+        GameObject.Destroy(gameObject);
+    }
 
 }
 
