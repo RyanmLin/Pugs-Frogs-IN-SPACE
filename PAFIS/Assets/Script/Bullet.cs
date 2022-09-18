@@ -8,7 +8,7 @@ public class Bullet : MonoBehaviour
 
     Animator animator;
     [SerializeField] public float speed;
-    float duration = 70;
+    public float duration = 70;
     float exlopsionDelay = 2;
 
 
@@ -54,7 +54,6 @@ public class Bullet : MonoBehaviour
    IEnumerator explosionDelayer(Collision2D collision)
     {
         yield return new WaitForSeconds(0.6f);
-        GameObject.Destroy(collision.gameObject);
         GameObject.Destroy(gameObject);
     }
 
