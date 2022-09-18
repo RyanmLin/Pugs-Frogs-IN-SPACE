@@ -7,6 +7,8 @@ TagManager:
   - Explosion
   - FrogPlayer
   - PugPlayer
+  - TEST
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -16,7 +18,7 @@ TagManager:
   - UI
   - Frog
   - Pug
-  - 
+  - Bullet
   - 
   - 
   - 
