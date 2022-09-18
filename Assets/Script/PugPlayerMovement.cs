@@ -8,7 +8,7 @@ public class PugPlayerMovement : MonoBehaviour
     public float thrust;
     public AudioSource source;
     public AudioClip clip;
-
+    
     [SerializeField] private Player playerScript;
     // Start is called before the first frame update
     void Start()
@@ -40,6 +40,7 @@ public class PugPlayerMovement : MonoBehaviour
             source.PlayOneShot(clip);
         }
     }
+    
     private void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.tag == playerScript.explosionTag)
