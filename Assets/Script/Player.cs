@@ -68,8 +68,8 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.tag == "Tilemap")
         {
-			Debug.Log("wooop");
-			gameMaster.EndGame();
+			Debug.Log(gameObject.layer);
+			gameMaster.EndGame(gameObject.layer);
         }
     }
 }
