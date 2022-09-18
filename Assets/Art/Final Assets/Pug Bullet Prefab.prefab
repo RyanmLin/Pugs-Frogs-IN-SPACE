@@ -4831,7 +4831,7 @@ Transform:
   m_GameObject: {fileID: 6791656698742244772}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.51894, y: 2.5189397, z: 2.5189397}
+  m_LocalScale: {x: 5.177419, y: 5.177419, z: 5.177419}
   m_Children: []
   m_Father: {fileID: 6791656700264201853}
   m_RootOrder: 2
@@ -9693,7 +9693,7 @@ Transform:
   m_GameObject: {fileID: 6791656699706267472}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.51894, y: 2.5189397, z: 2.5189397}
+  m_LocalScale: {x: 5.177419, y: 5.177419, z: 5.177419}
   m_Children: []
   m_Father: {fileID: 6791656700264201853}
   m_RootOrder: 3
@@ -14760,6 +14760,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0
   duration: 700
+  circleRadius: 2
   circleCol: {fileID: 4372915585103383935}
 --- !u!58 &4372915585103383935
 CircleCollider2D:
