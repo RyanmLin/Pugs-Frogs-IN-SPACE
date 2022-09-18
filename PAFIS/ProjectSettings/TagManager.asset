@@ -4,8 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Bullet
-  - TEST
+  - Explosion
+  - FrogPlayer
+  - PugPlayer
   layers:
   - Default
   - TransparentFX
@@ -13,6 +14,8 @@ TagManager:
   - 
   - Water
   - UI
+  - Frog
+  - Pug
   - 
   - 
   - 
@@ -37,9 +40,10 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - Bullet
   m_SortingLayers:
+  - name: Background
+    uniqueID: 1887510895
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
