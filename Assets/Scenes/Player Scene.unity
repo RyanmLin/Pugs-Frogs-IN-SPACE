@@ -123,6 +123,67 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &1064545121
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1756013699635732770, guid: 840ce0c9b4cb70e4e916326a064df18c, type: 3}
+      propertyPath: m_Name
+      value: Frog Bullet Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756013699635732770, guid: 840ce0c9b4cb70e4e916326a064df18c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4852859150930403340, guid: 840ce0c9b4cb70e4e916326a064df18c, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4852859150930403340, guid: 840ce0c9b4cb70e4e916326a064df18c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4852859150930403340, guid: 840ce0c9b4cb70e4e916326a064df18c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4852859150930403340, guid: 840ce0c9b4cb70e4e916326a064df18c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4852859150930403340, guid: 840ce0c9b4cb70e4e916326a064df18c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4852859150930403340, guid: 840ce0c9b4cb70e4e916326a064df18c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4852859150930403340, guid: 840ce0c9b4cb70e4e916326a064df18c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4852859150930403340, guid: 840ce0c9b4cb70e4e916326a064df18c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4852859150930403340, guid: 840ce0c9b4cb70e4e916326a064df18c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4852859150930403340, guid: 840ce0c9b4cb70e4e916326a064df18c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4852859150930403340, guid: 840ce0c9b4cb70e4e916326a064df18c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 840ce0c9b4cb70e4e916326a064df18c, type: 3}
 --- !u!1 &1195169793
 GameObject:
   m_ObjectHideFlags: 0
@@ -265,6 +326,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Frog Prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6490273029894398840, guid: e620855bd5a245e4c81f0c89216be8de, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e620855bd5a245e4c81f0c89216be8de, type: 3}
 --- !u!1001 &1853175818
@@ -325,6 +390,10 @@ PrefabInstance:
     - target: {fileID: 7306199387242617497, guid: c0a0e06c3f0fba942bed60e55d27e2fd, type: 3}
       propertyPath: m_Name
       value: Pug Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 7306199387242617497, guid: c0a0e06c3f0fba942bed60e55d27e2fd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0a0e06c3f0fba942bed60e55d27e2fd, type: 3}
