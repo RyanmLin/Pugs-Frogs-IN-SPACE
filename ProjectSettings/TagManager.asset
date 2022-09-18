@@ -10,6 +10,7 @@ TagManager:
   - TEST
   - Bullet
   - Tilemap
+  - gameMaster
   layers:
   - Default
   - TransparentFX

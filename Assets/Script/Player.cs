@@ -22,7 +22,7 @@ public class Player : MonoBehaviour
 	public float damage;
 	public float knockbackForce;
 
-	GameMaster gameMaster;
+	public GameMaster gameMaster;
 
 	void Start()
 	{
