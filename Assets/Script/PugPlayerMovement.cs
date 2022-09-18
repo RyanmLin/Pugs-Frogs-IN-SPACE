@@ -77,6 +77,7 @@ public class PugPlayerMovement : MonoBehaviour
         {
             Destroy(col.gameObject);
             // Instantiate Laser Sword
+            Instantiate(playerScript.laser);
         }
     }
 

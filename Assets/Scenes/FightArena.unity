@@ -670,23 +670,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1405094054580116284, guid: e620855bd5a245e4c81f0c89216be8de, type: 3}
-      propertyPath: damage
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1405094054580116284, guid: e620855bd5a245e4c81f0c89216be8de, type: 3}
-      propertyPath: knockbackForce
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1693659330937631981, guid: e620855bd5a245e4c81f0c89216be8de, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
+      propertyPath: laser
+      value: 
+      objectReference: {fileID: 2030547317408331567, guid: d82f9531f6417ef498304e60ef2b8b41, type: 3}
     - target: {fileID: 6490273029894398840, guid: e620855bd5a245e4c81f0c89216be8de, type: 3}
       propertyPath: m_Name
       value: Frog Prefab
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1693659330937631981, guid: e620855bd5a245e4c81f0c89216be8de, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e620855bd5a245e4c81f0c89216be8de, type: 3}
 --- !u!1 &507688798
 GameObject:
@@ -785,33 +776,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 385456940, guid: c0a0e06c3f0fba942bed60e55d27e2fd, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1919935618, guid: c0a0e06c3f0fba942bed60e55d27e2fd, type: 3}
-      propertyPath: ice
+      propertyPath: laser
       value: 
-      objectReference: {fileID: 5708255901069207803, guid: d7437a14c02ed5d4faf9ba4f949ce7e0, type: 3}
-    - target: {fileID: 1919935618, guid: c0a0e06c3f0fba942bed60e55d27e2fd, type: 3}
-      propertyPath: fire
-      value: 
-      objectReference: {fileID: 2271420075359518980, guid: 938dc21ee5f05ee4b8e9ab242de491c2, type: 3}
-    - target: {fileID: 1919935618, guid: c0a0e06c3f0fba942bed60e55d27e2fd, type: 3}
-      propertyPath: damage
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1919935618, guid: c0a0e06c3f0fba942bed60e55d27e2fd, type: 3}
-      propertyPath: explosionTag
-      value: Bullet
-      objectReference: {fileID: 0}
-    - target: {fileID: 1919935618, guid: c0a0e06c3f0fba942bed60e55d27e2fd, type: 3}
-      propertyPath: knockbackForce
-      value: 5
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2030547317408331567, guid: d82f9531f6417ef498304e60ef2b8b41, type: 3}
     - target: {fileID: 823431547227666780, guid: c0a0e06c3f0fba942bed60e55d27e2fd, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 823431547227666780, guid: c0a0e06c3f0fba942bed60e55d27e2fd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -857,8 +828,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pug Prefab
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 385456940, guid: c0a0e06c3f0fba942bed60e55d27e2fd, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0a0e06c3f0fba942bed60e55d27e2fd, type: 3}
 --- !u!1 &597358668
 GameObject:
@@ -2232,27 +2202,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1092870013 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8632049820759676635, guid: e620855bd5a245e4c81f0c89216be8de, type: 3}
-  m_PrefabInstance: {fileID: 465690874}
-  m_PrefabAsset: {fileID: 0}
---- !u!58 &1092870016
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1092870013}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.3294484}
-  serializedVersion: 2
-  m_Radius: 0.39018387
 --- !u!1 &1133973658
 GameObject:
   m_ObjectHideFlags: 0
@@ -2430,7 +2379,7 @@ Transform:
   m_Children:
   - {fileID: 636660098}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1391996245
 GameObject:
@@ -2747,27 +2696,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1766905042 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7372649374130763466, guid: c0a0e06c3f0fba942bed60e55d27e2fd, type: 3}
-  m_PrefabInstance: {fileID: 552842163}
-  m_PrefabAsset: {fileID: 0}
---- !u!58 &1766905045
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1766905042}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.50789964}
-  serializedVersion: 2
-  m_Radius: 0.3901838
 --- !u!1 &1807115044
 GameObject:
   m_ObjectHideFlags: 0

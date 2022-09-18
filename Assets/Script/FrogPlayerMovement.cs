@@ -75,6 +75,7 @@ public class FrogPlayerMovement : MonoBehaviour
         {
             Destroy(col.gameObject);
             // Instantiate Laser Sword
+            Instantiate(playerScript.laser, transform);
         }
     }
 

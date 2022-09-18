@@ -103,8 +103,8 @@ MonoBehaviour:
   msBetweenShots: 250
   gunVelocity: 1.1
   explosionTag: Bullet
-  damage: 0
-  knockbackForce: 0
+  damage: 5
+  knockbackForce: 5
   gameMaster: {fileID: 0}
 --- !u!1 &6490273029894398840
 GameObject:
@@ -116,7 +116,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1282602115799101099}
   - component: {fileID: 2533994534486427554}
-  - component: {fileID: 1693659330937631981}
   - component: {fileID: 5816734043922012201}
   - component: {fileID: 196658256}
   m_Layer: 6
@@ -158,22 +157,6 @@ MonoBehaviour:
   source: {fileID: 196658256}
   clip: {fileID: 8300000, guid: 954889528a5412d4980bb8fe6b4cd2a8, type: 3}
   playerScript: {fileID: 1405094054580116284}
---- !u!58 &1693659330937631981
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6490273029894398840}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.36}
-  serializedVersion: 2
-  m_Radius: 0.4
 --- !u!50 &5816734043922012201
 Rigidbody2D:
   serializedVersion: 4
@@ -301,6 +284,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5259249179151398821}
   - component: {fileID: 7020775568126792104}
+  - component: {fileID: 1092870016}
   m_Layer: 6
   m_Name: Frog Controller
   m_TagString: Untagged
@@ -342,3 +326,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!58 &1092870016
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8632049820759676635}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.3294484}
+  serializedVersion: 2
+  m_Radius: 0.39018387

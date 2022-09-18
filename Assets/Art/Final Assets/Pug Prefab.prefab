@@ -97,14 +97,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   knoknockOutPercent: 0
   bullet: {fileID: 1481398024, guid: 416bde1fa0bdf5f44912f768cc652cd8, type: 3}
-  ice: {fileID: 0}
-  fire: {fileID: 0}
+  ice: {fileID: 5708255901069207803, guid: d7437a14c02ed5d4faf9ba4f949ce7e0, type: 3}
+  fire: {fileID: 2271420075359518980, guid: 938dc21ee5f05ee4b8e9ab242de491c2, type: 3}
   laser: {fileID: 0}
   msBetweenShots: 250
   gunVelocity: 1.1
-  explosionTag: 
-  damage: 0
-  knockbackForce: 0
+  explosionTag: Bullet
+  damage: 5
+  knockbackForce: 5
   gameMaster: {fileID: 0}
 --- !u!1 &7306199387242617497
 GameObject:
@@ -116,7 +116,6 @@ GameObject:
   m_Component:
   - component: {fileID: 823431547227666780}
   - component: {fileID: 385456939}
-  - component: {fileID: 385456940}
   - component: {fileID: 385456941}
   - component: {fileID: 552842166}
   m_Layer: 7
@@ -162,22 +161,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &385456940
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7306199387242617497}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.56}
-  serializedVersion: 2
-  m_Radius: 0.4
 --- !u!114 &385456941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -301,6 +284,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6253717417917884743}
   - component: {fileID: 5741979383405211732}
+  - component: {fileID: 1766905045}
   m_Layer: 7
   m_Name: Pug Controller
   m_TagString: Untagged
@@ -342,3 +326,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!58 &1766905045
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7372649374130763466}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.50789964}
+  serializedVersion: 2
+  m_Radius: 0.3901838
