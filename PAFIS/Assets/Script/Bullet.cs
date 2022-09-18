@@ -6,6 +6,7 @@ public class Bullet : MonoBehaviour
 {
 
 
+
     [SerializeField] public float speed;
     float duration = 5;
 
@@ -20,8 +21,7 @@ public class Bullet : MonoBehaviour
     void Update()
     {
         
-        float moveDistance = speed * Time.deltaTime;
-        //CheckCollisions(moveDistance);
+  
         transform.Translate(Vector2.up * Time.deltaTime * speed);
     }
 
@@ -31,25 +31,25 @@ public class Bullet : MonoBehaviour
      
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        Debug.Log("enter");
-        if (collision.gameObject.layer == 31)
-        {
-            GameObject.Destroy(collision.gameObject);
-            GameObject.Destroy(gameObject);
-        }
-    }
-
-    //private void OnTriggerEnter2D(Collider2D collision)
+    //private void OnCollisionEnter2D(Collision2D collision)
     //{
     //    Debug.Log("enter");
-    //    if (collision.tag == "Bullet")
+    //    if (collision.gameObject.tag == "Bullet")
     //    {
-    //        GameObject.Destroy(collision);
+    //        GameObject.Destroy(collision.gameObject);
     //        GameObject.Destroy(gameObject);
     //    }
     //}
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("enter");
+        if (collision.tag == "Bullet")
+        {
+            GameObject.Destroy(collision);
+            GameObject.Destroy(gameObject);
+        }
+    }
 
 }
 
