@@ -11,11 +11,13 @@ public class Bullet : MonoBehaviour
     public float duration = 70;
     float exlopsionDelay = 2;
 
+    public CircleCollider2D circleCol;
 
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponentInChildren<Animator>();
+        circleCol.isTrigger = true;
     }
 
     // Update is called once per frame
@@ -45,7 +47,8 @@ public class Bullet : MonoBehaviour
         {
             animator.SetBool("Exploding", true);
             StartCoroutine(explosionDelayer());
-                
+            circleCol.isTrigger = false;
+            circleCol.radius = 1f;
         }
     }
 

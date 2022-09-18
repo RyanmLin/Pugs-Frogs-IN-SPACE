@@ -51,6 +51,25 @@ public class PugPlayerMovement : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.tag == "Pug_Fire")
+        {
+            Destroy(col.gameObject);
+            // Change Next Bullet to Fire Extinguisher
+        }
+        if (col.gameObject.tag == "Pug_Ice")
+        {
+            Destroy(col.gameObject);
+            // Change Next Bullet to Ice Cube
+        }
+        if (col.gameObject.tag == "Pug_Laser")
+        {
+            Destroy(col.gameObject);
+            // Instantiate Laser Sword
+        }
+    }
+
     private void KnockBack(Vector3 explosionCenter)
     {
 
