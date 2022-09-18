@@ -19,6 +19,7 @@ public class Player : MonoBehaviour
 	float nextShotTime;
 
 	public string explosionTag;
+	public string collectibleTag;
 	public float damage;
 	public float knockbackForce;
 

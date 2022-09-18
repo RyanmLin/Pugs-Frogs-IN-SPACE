@@ -51,6 +51,25 @@ public class FrogPlayerMovement : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.tag == "Frog_Fire")
+        {
+            Destroy(col.gameObject);
+            // Change Next Bullet to Fire Extinguisher
+        }
+        if (col.gameObject.tag == "Frog_Ice")
+        {
+            Destroy(col.gameObject);
+            // Change Next Bullet to Ice Cube
+        }
+        if (col.gameObject.tag == "Frog_Laser")
+        {
+            Destroy(col.gameObject);
+            // Instantiate Laser Sword
+        }
+    }
+
     private void KnockBack(Vector3 explosionCenter)
     {
       
