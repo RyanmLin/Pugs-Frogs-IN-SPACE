@@ -6,7 +6,9 @@ public class FrogPlayerMovement : MonoBehaviour
 {
     public Rigidbody2D rb;
     public float thrust;
-  
+    public AudioSource source;
+    public AudioClip clip;
+
     [SerializeField] private Player playerScript;
     // Start is called before the first frame update
     void Start()
@@ -35,7 +37,7 @@ public class FrogPlayerMovement : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Space))
         {
-
+            source.PlayOneShot(clip);
         }
     }
     private void OnCollisionEnter2D(Collision2D col)
