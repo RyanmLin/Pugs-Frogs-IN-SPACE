@@ -10,10 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7479611597834426289}
   - component: {fileID: 7777863701374001258}
-  - component: {fileID: 6294331982263229779}
-  - component: {fileID: 2494931762437500209}
-  - component: {fileID: 432519560793022249}
-  - component: {fileID: 7458921378690913309}
+  - component: {fileID: 1919935618}
   m_Layer: 7
   m_Name: Pug_Player (1)
   m_TagString: Player
@@ -29,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5032368961825016126}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.3986511, y: -0.78952813, z: 0.87581974}
+  m_LocalPosition: {x: 0, y: 1.09, z: 0.08758197}
   m_LocalScale: {x: 3.4, y: 3.4, z: 1}
   m_Children: []
   m_Father: {fileID: 6253717417917884743}
@@ -86,44 +83,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &6294331982263229779
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5032368961825016126}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!58 &2494931762437500209
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5032368961825016126}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.1740636}
-  serializedVersion: 2
-  m_Radius: 0.11
---- !u!114 &432519560793022249
+--- !u!114 &1919935618
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -135,30 +95,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ac102df616d2d444ab89741c4d00b50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  knoknockOutPercent: 3
+  knoknockOutPercent: 0
   bullet: {fileID: 1481398024, guid: 416bde1fa0bdf5f44912f768cc652cd8, type: 3}
   msBetweenShots: 250
-  gunVelocity: 1
-  explosionTag: Bullet
+  gunVelocity: 1.1
+  explosionTag: 
   collectibleTag: 
-  damage: 5
-  knockbackForce: 10
+  damage: 0
+  knockbackForce: 0
   gameMaster: {fileID: 0}
---- !u!114 &7458921378690913309
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5032368961825016126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6dbe71598db7050419522314f4243bba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 6294331982263229779}
-  thrust: 100
-  playerScript: {fileID: 432519560793022249}
 --- !u!1 &7306199387242617497
 GameObject:
   m_ObjectHideFlags: 0
@@ -168,9 +113,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 823431547227666780}
-  m_Layer: 0
+  - component: {fileID: 385456939}
+  - component: {fileID: 385456940}
+  - component: {fileID: 385456941}
+  m_Layer: 7
   m_Name: Pug Prefab
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -190,6 +138,58 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &385456939
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7306199387242617497}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!58 &385456940
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7306199387242617497}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.56}
+  serializedVersion: 2
+  m_Radius: 0.4
+--- !u!114 &385456941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7306199387242617497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dbe71598db7050419522314f4243bba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 385456939}
+  thrust: 100
+  playerScript: {fileID: 0}
 --- !u!1 &7372649374130763466
 GameObject:
   m_ObjectHideFlags: 0
@@ -199,7 +199,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6253717417917884743}
-  m_Layer: 0
+  - component: {fileID: 5741979383405211732}
+  m_Layer: 7
   m_Name: Pug Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -221,3 +222,22 @@ Transform:
   m_Father: {fileID: 823431547227666780}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &5741979383405211732
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7372649374130763466}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3d3e2cddc8d52d2438d239932e2e1ab8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
