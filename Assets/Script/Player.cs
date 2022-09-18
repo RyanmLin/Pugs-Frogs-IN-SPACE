@@ -41,25 +41,35 @@ public class Player : MonoBehaviour
 
 	// Update is called once per frame
 	void Update()
-	{ 
-		if (Input.GetMouseButton(0))
-		{
-			Shoot(bullet);
-		}
+	{
 
 	}
-
-	public void Shoot(Bullet shootingBullet)
-	{
+	public void Shoot(int bulletType)
+    {
 		if (Time.time > nextShotTime)
 		{
-			nextShotTime = Time.time + msBetweenShots / 1000;
-			Bullet newbullet = Instantiate(shootingBullet, transform.position, transform.rotation);
+			if(bulletType == 2)
+            {
+				nextShotTime = Time.time + msBetweenShots / 1000;
+				FireBullet fireBul = Instantiate(fire, transform.position, transform.rotation);
 
-			newbullet.Setspeed(gunVelocity);
+				fireBul.Setspeed(gunVelocity);
+			}
+			else if(bulletType == 3)
+            {
+				nextShotTime = Time.time + msBetweenShots / 1000;
+				IceBullet iceBul = Instantiate(ice, transform.position, transform.rotation);
 
+				iceBul.Setspeed(gunVelocity);
+			}
+			else
+            {
+				nextShotTime = Time.time + msBetweenShots / 1000;
+				Bullet newbullet = Instantiate(bullet, transform.position, transform.rotation);
+
+				newbullet.Setspeed(gunVelocity);
+			}
 		}
-
 	}
 
 	public void TakeHit(float damage)

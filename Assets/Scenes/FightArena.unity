@@ -449,6 +449,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   knoknockOutPercent: 3
   bullet: {fileID: 161325096, guid: 840ce0c9b4cb70e4e916326a064df18c, type: 3}
+  ice: {fileID: 5708255901069207803, guid: d7437a14c02ed5d4faf9ba4f949ce7e0, type: 3}
+  fire: {fileID: 2271420075359518980, guid: 938dc21ee5f05ee4b8e9ab242de491c2, type: 3}
+  laser: {fileID: 0}
   msBetweenShots: 250
   gunVelocity: 1
   explosionTag: Bullet
@@ -1640,7 +1643,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1346822127
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1774,6 +1777,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   knoknockOutPercent: 3
   bullet: {fileID: 1481398024, guid: 416bde1fa0bdf5f44912f768cc652cd8, type: 3}
+  ice: {fileID: 0}
+  fire: {fileID: 0}
+  laser: {fileID: 0}
   msBetweenShots: 250
   gunVelocity: 1
   explosionTag: Bullet

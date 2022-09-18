@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-
-
     Animator animator;
     [SerializeField] public float speed;
     public float duration = 70;

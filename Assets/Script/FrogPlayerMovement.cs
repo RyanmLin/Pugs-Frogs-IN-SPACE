@@ -10,6 +10,7 @@ public class FrogPlayerMovement : MonoBehaviour
     public AudioClip clip;
   
     [SerializeField] private Player playerScript;
+    private int nextBullet;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,6 +39,9 @@ public class FrogPlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             source.PlayOneShot(clip);
+            source.PlayOneShot(clip);
+            playerScript.Shoot(nextBullet);
+            nextBullet = 1;
         }
     }
     private void OnCollisionEnter2D(Collision2D col)
@@ -59,11 +63,13 @@ public class FrogPlayerMovement : MonoBehaviour
         {
             Destroy(col.gameObject);
             // Change Next Bullet to Fire Extinguisher
+            nextBullet = 2;
         }
         if (col.gameObject.tag == "Frog_Ice")
         {
             Destroy(col.gameObject);
             // Change Next Bullet to Ice Cube
+            nextBullet = 3;
         }
         if (col.gameObject.tag == "Frog_Laser")
         {
