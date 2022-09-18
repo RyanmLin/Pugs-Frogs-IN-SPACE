@@ -20,8 +20,6 @@ public class Bullet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-  
         transform.Translate(Vector2.up * Time.deltaTime * speed);
     }
 
@@ -31,25 +29,25 @@ public class Bullet : MonoBehaviour
      
     }
 
-    //private void OnCollisionEnter2D(Collision2D collision)
-    //{
-    //    Debug.Log("enter");
-    //    if (collision.gameObject.tag == "Bullet")
-    //    {
-    //        GameObject.Destroy(collision.gameObject);
-    //        GameObject.Destroy(gameObject);
-    //    }
-    //}
-
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log("enter");
-        if (collision.tag == "Bullet")
+        if (collision.gameObject.tag == "Bullet")
         {
-            GameObject.Destroy(collision);
+            GameObject.Destroy(collision.gameObject);
             GameObject.Destroy(gameObject);
         }
     }
+
+    //private void OnTriggerEnter2D(Collider2D collision)
+    //{
+    //    Debug.Log("enter");
+    //    if (collision.tag == "Bullet")
+    //    {
+    //        GameObject.Destroy(collision);
+    //        GameObject.Destroy(gameObject);
+    //    }
+    //}
 
 }
 
