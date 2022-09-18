@@ -10,6 +10,7 @@ public class PugPlayerMovement : MonoBehaviour
     public AudioClip clip;
     
     [SerializeField] private Player playerScript;
+    private int nextBullet;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,6 +39,9 @@ public class PugPlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.RightShift))
         {
             source.PlayOneShot(clip);
+            playerScript.Shoot(nextBullet);
+            nextBullet = 1;
+
         }
     }
     
@@ -60,11 +64,14 @@ public class PugPlayerMovement : MonoBehaviour
         {
             Destroy(col.gameObject);
             // Change Next Bullet to Fire Extinguisher
+            nextBullet = 2;
         }
         if (col.gameObject.tag == "Pug_Ice")
         {
             Destroy(col.gameObject);
             // Change Next Bullet to Ice Cube
+            nextBullet = 3;
+
         }
         if (col.gameObject.tag == "Pug_Laser")
         {

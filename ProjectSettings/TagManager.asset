@@ -15,6 +15,8 @@ TagManager:
   - Pug_Fire
   - Pug_Ice
   - Pug_Laser
+  - Tilemap
+  - gameMaster
   layers:
   - Default
   - TransparentFX

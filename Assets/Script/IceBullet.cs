@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bullet : MonoBehaviour
+public class IceBullet : MonoBehaviour
 {
     Animator animator;
     [SerializeField] public float speed;
@@ -35,12 +35,12 @@ public class Bullet : MonoBehaviour
     public void Setspeed(float newSpeed)
     {
         speed = newSpeed;
-     
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-  
+
         if (collision.gameObject.tag == "Bullet")
         {
             animator.SetBool("Exploding", true);
@@ -52,12 +52,10 @@ public class Bullet : MonoBehaviour
 
 
 
-   IEnumerator explosionDelayer()
+    IEnumerator explosionDelayer()
     {
         yield return new WaitForSeconds(0.6f);
         GameObject.Destroy(gameObject);
     }
 
 }
-
-
