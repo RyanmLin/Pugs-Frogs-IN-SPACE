@@ -4992,7 +4992,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
-  duration: 150
+  duration: 700
   circleRadius: 2
   circleCol: {fileID: 7239587423584452969}
 --- !u!50 &161325095

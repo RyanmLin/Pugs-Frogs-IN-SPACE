@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b5fb99da75c5e44db647bf33db91b52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  source: {fileID: 0}
+  source: {fileID: 552842165}
   clip: {fileID: 8300000, guid: 07f621bb7ed73f648a9134f12683a3a4, type: 3}
   wait: 10
 --- !u!82 &8581924
@@ -723,7 +723,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1282602115799101099, guid: e620855bd5a245e4c81f0c89216be8de, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.87581974
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1282602115799101099, guid: e620855bd5a245e4c81f0c89216be8de, type: 3}
       propertyPath: m_LocalRotation.w
@@ -757,6 +757,10 @@ PrefabInstance:
       propertyPath: laser
       value: 
       objectReference: {fileID: 2030547317408331567, guid: d82f9531f6417ef498304e60ef2b8b41, type: 3}
+    - target: {fileID: 5816734043922012201, guid: e620855bd5a245e4c81f0c89216be8de, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6490273029894398840, guid: e620855bd5a245e4c81f0c89216be8de, type: 3}
       propertyPath: m_Name
       value: Frog Prefab
@@ -774,6 +778,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ac102df616d2d444ab89741c4d00b50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!82 &465690876 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 196658256, guid: e620855bd5a245e4c81f0c89216be8de, type: 3}
+  m_PrefabInstance: {fileID: 465690874}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &507688798
 GameObject:
   m_ObjectHideFlags: 0
@@ -989,6 +998,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 385456939, guid: c0a0e06c3f0fba942bed60e55d27e2fd, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1919935618, guid: c0a0e06c3f0fba942bed60e55d27e2fd, type: 3}
       propertyPath: laser
       value: 
@@ -1054,6 +1067,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ac102df616d2d444ab89741c4d00b50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!82 &552842165 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 552842166, guid: c0a0e06c3f0fba942bed60e55d27e2fd, type: 3}
+  m_PrefabInstance: {fileID: 552842163}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &597358668
 GameObject:
   m_ObjectHideFlags: 0
@@ -3258,7 +3276,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1873cfc440f0ce84f87f3ec48627dd99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  source: {fileID: 0}
+  source: {fileID: 465690876}
   clip: {fileID: 8300000, guid: 87f0f6bf692cbec4e95237536cea4d43, type: 3}
   wait: 7
 --- !u!82 &1865240674
