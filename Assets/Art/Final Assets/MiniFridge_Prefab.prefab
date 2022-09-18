@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3012982058645984479}
   m_Layer: 0
-  m_Name: Mini Fridge Prefab
+  m_Name: MiniFridge_Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
