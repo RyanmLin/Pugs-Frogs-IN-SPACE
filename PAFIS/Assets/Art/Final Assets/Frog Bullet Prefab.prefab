@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3745095299482159093}
   - component: {fileID: 3415970377131167908}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: Frog Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 4415266516726472938}
   - component: {fileID: 8508554707299408262}
   - component: {fileID: 2065212942264762485}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: Frog Bullet Explosion Fruit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4956,7 +4956,7 @@ GameObject:
   - component: {fileID: 161325096}
   - component: {fileID: 161325095}
   - component: {fileID: 161325094}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: Frog Bullet Prefab
   m_TagString: Bullet
   m_Icon: {fileID: 0}
@@ -5023,7 +5023,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -5049,7 +5049,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4164419341518659558}
   - component: {fileID: 981143801824879189}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: Frog Bullet Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5104,7 +5104,7 @@ GameObject:
   - component: {fileID: 2171031359351001812}
   - component: {fileID: 8632227252903327331}
   - component: {fileID: 7198116137524865511}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: Frog Bullet Trail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9908,7 +9908,7 @@ GameObject:
   - component: {fileID: 5216951218834230447}
   - component: {fileID: 5205752215374829029}
   - component: {fileID: 8694759270939624563}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: Frog Bullet Explosion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
