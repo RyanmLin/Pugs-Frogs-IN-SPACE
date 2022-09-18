@@ -6,15 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
     path: Assets/Scenes/OpeningScene.unity
     guid: 21359f1bd5117704a8fc60731519c174
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/FightArena.unity
     guid: 76d7daa346079ed4f9ffa0481aff8cef
   - enabled: 1
     path: Assets/Scenes/Settings.unity
     guid: e82767935cbf7f5449a71408e3ea23a3
+  - enabled: 1
+    path: Assets/Scenes/FrogVictory.unity
+    guid: af75a01dfda49884981101f9e30a597c
+  - enabled: 1
+    path: Assets/Scenes/PugVictory.unity
+    guid: 4676f6656887e4d4ea7df9cf8a978e89
   m_configObjects: {}

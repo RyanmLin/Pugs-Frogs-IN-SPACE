@@ -24,8 +24,14 @@ public class Player : MonoBehaviour
 	public float damage;
 	public float knockbackForce;
 
+	public GameMaster gameMaster;
+
 	void Start()
 	{
+		if (gameMaster == null)
+        {
+			gameMaster = GameObject.FindGameObjectWithTag("gameMaster").GetComponent<GameMaster>();
+        }
 		knoknockOutPercent = 0;
 	}
 
@@ -57,6 +63,15 @@ public class Player : MonoBehaviour
 	{
 		knoknockOutPercent += damage;
 	}
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Tilemap")
+        {
+			Debug.Log("wooop");
+			gameMaster.EndGame();
+        }
+    }
 }
 
 
