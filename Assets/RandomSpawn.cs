@@ -21,6 +21,6 @@ public class RandomSpawn : MonoBehaviour
     private IEnumerator SpawnDelay(float duration)
     {
         yield return new WaitForSeconds(duration);
-        Instantiate(spawn);
+        Instantiate(spawn, transform);
     }
 }

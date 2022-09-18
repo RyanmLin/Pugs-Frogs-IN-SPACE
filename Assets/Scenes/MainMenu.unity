@@ -563,7 +563,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameScene: FightArena
-  settingsScene: Settings
+  settingsScene: Controls
 --- !u!1 &859784025
 GameObject:
   m_ObjectHideFlags: 0
