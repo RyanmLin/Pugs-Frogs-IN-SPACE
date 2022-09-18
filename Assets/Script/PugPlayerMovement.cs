@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
 
 public class PugPlayerMovement : MonoBehaviour
 {
@@ -55,6 +57,10 @@ public class PugPlayerMovement : MonoBehaviour
 
             // Apply knockback force
             KnockBack(col.transform.position);
+        }
+        if(col.gameObject.tag == "Tilemap")
+        {
+            SceneManager.LoadScene("FrogVictory");
         }
     }
 
